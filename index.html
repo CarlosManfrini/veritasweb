@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pinturas Cimarron</title>
+  <meta name="description" content="Pinturas">
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <header>
+    <h1>CIMARRON</h1>
+  </header>
+
+  <div class="contenedor-principal">
+    <div id="color-palette" class="abanico"></div>
+
+    <div class="botones">
+      <button id="camera-toggle" title="Activar cámara">📷</button>
+      <a id="whatsapp-btn" href="#" target="_blank" style="display: none;">
+        <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" />
+        Enviar por WhatsApp
+      </a>
+    </div>
+
+    <div id="colores-seleccionados" class="vista-previa"></div>
+    <video id="camera-feed" autoplay playsinline></video>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
